@@ -1,9 +1,9 @@
-import { ONBOARD_CHANGE } from '../reducers';
+import { iActionTypes } from '../iAction';
 
 interface Onboard {
   hasOnboarded: boolean;
 }
 export const changeOnboard = (payload: Onboard) => ({
-  type: ONBOARD_CHANGE,
+  type: iActionTypes.ONBOARD_CHANGE,
   payload: payload,
 });

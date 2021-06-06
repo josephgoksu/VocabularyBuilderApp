@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "LightReactNative.app"
-               BlueprintName = "LightReactNative"
-               ReferencedContainer = "container:LightReactNative.xcodeproj">
+               BuildableName = "VocabularyBuilderApp.app"
+               BlueprintName = "VocabularyBuilderApp"
+               ReferencedContainer = "container:VocabularyBuilderApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "LightReactNativeTests.xctest"
-               BlueprintName = "LightReactNativeTests"
-               ReferencedContainer = "container:LightReactNative.xcodeproj">
+               BuildableName = "VocabularyBuilderAppTests.xctest"
+               BlueprintName = "VocabularyBuilderAppTests"
+               ReferencedContainer = "container:VocabularyBuilderApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "LightReactNative.app"
-            BlueprintName = "LightReactNative"
-            ReferencedContainer = "container:LightReactNative.xcodeproj">
+            BuildableName = "VocabularyBuilderApp.app"
+            BlueprintName = "VocabularyBuilderApp"
+            ReferencedContainer = "container:VocabularyBuilderApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "LightReactNative.app"
-            BlueprintName = "LightReactNative"
-            ReferencedContainer = "container:LightReactNative.xcodeproj">
+            BuildableName = "VocabularyBuilderApp.app"
+            BlueprintName = "VocabularyBuilderApp"
+            ReferencedContainer = "container:VocabularyBuilderApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

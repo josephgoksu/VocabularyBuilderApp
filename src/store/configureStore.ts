@@ -13,9 +13,7 @@ declare global {
 }
 
 const composeEnhancers =
-  (typeof window !== 'undefined' &&
-    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
-  compose;
+  (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 
 // create the saga middleware
 const sagaMiddleware = createSagaMiddleware();
@@ -35,7 +33,7 @@ const persistConfig = {
   // Storage Method (React Native)
   storage: AsyncStorage,
   // Whitelist (Save Specific Reducers)
-  whitelist: ['auth', 'onboard'],
+  whitelist: ['auth', 'onboard', 'vocabulary'],
   // Blacklist (Don't Save Specific Reducers)
   blacklist: [],
 };

@@ -14,6 +14,8 @@ import {
   GetStartedScreen,
 } from './screens';
 import { iSuperOnboard } from './store/reducers';
+import { QuizScreen } from './screens/quiz';
+import { AddWordScreen } from './screens/addWord';
 
 const { Navigator, Screen } = createStackNavigator();
 
@@ -39,7 +41,8 @@ const Navigation = () => {
   const MainNavigator = () => (
     <Navigator headerMode="none">
       <Screen name="Home" component={HomeScreen} />
-      <Screen name="About" component={AboutScreen} />
+      <Screen name="Quiz" component={QuizScreen} />
+      <Screen name="AddWord" component={AddWordScreen} />
     </Navigator>
   );
 

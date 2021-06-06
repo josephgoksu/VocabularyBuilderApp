@@ -21,7 +21,7 @@ export const OnboardingScreen = (props: OnboardingProps) => {
               The
             </Text>
             <Text style={styles.text} category="h1">
-              Template
+              Vocabulary Builder
             </Text>
             <Text
               style={{
@@ -29,7 +29,7 @@ export const OnboardingScreen = (props: OnboardingProps) => {
                 fontSize: 24,
               }}
               category="p1">
-              Designed for lazy devs.
+              Designed for learners.
             </Text>
           </View>
         </Layout>
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   },
   text: {
     margin: 2,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Montserrat-Regular',
   },
   textContent: {
     alignItems: 'flex-start',

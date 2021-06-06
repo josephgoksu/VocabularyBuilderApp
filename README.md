@@ -1,4 +1,4 @@
-# 📱 Light React Native Template (Preview)
+# 📱 VocabularyBuilderApp (Preview)
 
 #### All-In-One Template, designed for **smart** (lazy) developers
 

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* LightReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LightReactNativeTests.m */; };
+		00E356F31AD99517003FC87E /* VocabularyBuilderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VocabularyBuilderAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5A7CFEDFF519C08BE2CD5F9E /* libPods-LightReactNative-LightReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F7F63735A471D3BBC324F1 /* libPods-LightReactNative-LightReactNativeTests.a */; };
-		7CAFACDCCCD0D144EAD270DB /* libPods-LightReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 306ED9D08733CD78A813A22E /* libPods-LightReactNative.a */; };
+		5A7CFEDFF519C08BE2CD5F9E /* libPods-VocabularyBuilderApp-VocabularyBuilderAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F7F63735A471D3BBC324F1 /* libPods-VocabularyBuilderApp-VocabularyBuilderAppTests.a */; };
+		7CAFACDCCCD0D144EAD270DB /* libPods-VocabularyBuilderApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 306ED9D08733CD78A813A22E /* libPods-VocabularyBuilderApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = LightReactNative;
+			remoteInfo = VocabularyBuilderApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* LightReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* VocabularyBuilderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabularyBuilderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* LightReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightReactNativeTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* LightReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LightReactNative/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = LightReactNative/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LightReactNative/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LightReactNative/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LightReactNative/main.m; sourceTree = "<group>"; };
-		306ED9D08733CD78A813A22E /* libPods-LightReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A420F50E7F143CD51EDE2F1 /* Pods-LightReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightReactNative.release.xcconfig"; path = "Target Support Files/Pods-LightReactNative/Pods-LightReactNative.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LightReactNative/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		832BEEFB6975132179876545 /* Pods-LightReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightReactNative.debug.xcconfig"; path = "Target Support Files/Pods-LightReactNative/Pods-LightReactNative.debug.xcconfig"; sourceTree = "<group>"; };
-		C1F7F63735A471D3BBC324F1 /* libPods-LightReactNative-LightReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightReactNative-LightReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB92F8ADE8FD477E8315231E /* Pods-LightReactNative-LightReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightReactNative-LightReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
-		D8C889D1A6130DF1AC02A178 /* Pods-LightReactNative-LightReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightReactNative-LightReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* VocabularyBuilderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VocabularyBuilderAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* VocabularyBuilderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabularyBuilderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VocabularyBuilderApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VocabularyBuilderApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VocabularyBuilderApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VocabularyBuilderApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VocabularyBuilderApp/main.m; sourceTree = "<group>"; };
+		306ED9D08733CD78A813A22E /* libPods-VocabularyBuilderApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VocabularyBuilderApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A420F50E7F143CD51EDE2F1 /* Pods-VocabularyBuilderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyBuilderApp.release.xcconfig"; path = "Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VocabularyBuilderApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		832BEEFB6975132179876545 /* Pods-VocabularyBuilderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyBuilderApp.debug.xcconfig"; path = "Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C1F7F63735A471D3BBC324F1 /* libPods-VocabularyBuilderApp-VocabularyBuilderAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VocabularyBuilderApp-VocabularyBuilderAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92F8ADE8FD477E8315231E /* Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.release.xcconfig"; path = "Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C889D1A6130DF1AC02A178 /* Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A7CFEDFF519C08BE2CD5F9E /* libPods-LightReactNative-LightReactNativeTests.a in Frameworks */,
+				5A7CFEDFF519C08BE2CD5F9E /* libPods-VocabularyBuilderApp-VocabularyBuilderAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CAFACDCCCD0D144EAD270DB /* libPods-LightReactNative.a in Frameworks */,
+				7CAFACDCCCD0D144EAD270DB /* libPods-VocabularyBuilderApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* LightReactNativeTests */ = {
+		00E356EF1AD99517003FC87E /* VocabularyBuilderAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* LightReactNativeTests.m */,
+				00E356F21AD99517003FC87E /* VocabularyBuilderAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = LightReactNativeTests;
+			path = VocabularyBuilderAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* LightReactNative */ = {
+		13B07FAE1A68108700A75B9A /* VocabularyBuilderApp */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = LightReactNative;
+			name = VocabularyBuilderApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				306ED9D08733CD78A813A22E /* libPods-LightReactNative.a */,
-				C1F7F63735A471D3BBC324F1 /* libPods-LightReactNative-LightReactNativeTests.a */,
+				306ED9D08733CD78A813A22E /* libPods-VocabularyBuilderApp.a */,
+				C1F7F63735A471D3BBC324F1 /* libPods-VocabularyBuilderApp-VocabularyBuilderAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,10 +109,10 @@
 		33070364903BEE79C5A9D755 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				832BEEFB6975132179876545 /* Pods-LightReactNative.debug.xcconfig */,
-				7A420F50E7F143CD51EDE2F1 /* Pods-LightReactNative.release.xcconfig */,
-				D8C889D1A6130DF1AC02A178 /* Pods-LightReactNative-LightReactNativeTests.debug.xcconfig */,
-				CB92F8ADE8FD477E8315231E /* Pods-LightReactNative-LightReactNativeTests.release.xcconfig */,
+				832BEEFB6975132179876545 /* Pods-VocabularyBuilderApp.debug.xcconfig */,
+				7A420F50E7F143CD51EDE2F1 /* Pods-VocabularyBuilderApp.release.xcconfig */,
+				D8C889D1A6130DF1AC02A178 /* Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.debug.xcconfig */,
+				CB92F8ADE8FD477E8315231E /* Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -128,9 +128,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* LightReactNative */,
+				13B07FAE1A68108700A75B9A /* VocabularyBuilderApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* LightReactNativeTests */,
+				00E356EF1AD99517003FC87E /* VocabularyBuilderAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				33070364903BEE79C5A9D755 /* Pods */,
@@ -143,8 +143,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* LightReactNative.app */,
-				00E356EE1AD99517003FC87E /* LightReactNativeTests.xctest */,
+				13B07F961A680F5B00A75B9A /* VocabularyBuilderApp.app */,
+				00E356EE1AD99517003FC87E /* VocabularyBuilderAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* LightReactNativeTests */ = {
+		00E356ED1AD99517003FC87E /* VocabularyBuilderAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LightReactNativeTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VocabularyBuilderAppTests" */;
 			buildPhases = (
 				334316206582869755133031 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = LightReactNativeTests;
-			productName = LightReactNativeTests;
-			productReference = 00E356EE1AD99517003FC87E /* LightReactNativeTests.xctest */;
+			name = VocabularyBuilderAppTests;
+			productName = VocabularyBuilderAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* VocabularyBuilderAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* LightReactNative */ = {
+		13B07F861A680F5B00A75B9A /* VocabularyBuilderApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LightReactNative" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VocabularyBuilderApp" */;
 			buildPhases = (
 				7CF5F892A69594A5706B6544 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = LightReactNative;
-			productName = LightReactNative;
-			productReference = 13B07F961A680F5B00A75B9A /* LightReactNative.app */;
+			name = VocabularyBuilderApp;
+			productName = VocabularyBuilderApp;
+			productReference = 13B07F961A680F5B00A75B9A /* VocabularyBuilderApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LightReactNative" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VocabularyBuilderApp" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* LightReactNative */,
-				00E356ED1AD99517003FC87E /* LightReactNativeTests */,
+				13B07F861A680F5B00A75B9A /* VocabularyBuilderApp */,
+				00E356ED1AD99517003FC87E /* VocabularyBuilderAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		30EAA4658671C89B177892E5 /* [CP] Copy Pods Resources */ = {
@@ -288,15 +288,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative/Pods-LightReactNative-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative/Pods-LightReactNative-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LightReactNative/Pods-LightReactNative-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		334316206582869755133031 /* [CP] Check Pods Manifest.lock */ = {
@@ -314,7 +314,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LightReactNative-LightReactNativeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,15 +327,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative/Pods-LightReactNative-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative/Pods-LightReactNative-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LightReactNative/Pods-LightReactNative-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp/Pods-VocabularyBuilderApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		593E03756A5D2EBC821053D8 /* [CP] Copy Pods Resources */ = {
@@ -344,15 +344,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LightReactNative-LightReactNativeTests/Pods-LightReactNative-LightReactNativeTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests/Pods-VocabularyBuilderApp-VocabularyBuilderAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7CF5F892A69594A5706B6544 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,7 +370,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LightReactNative-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VocabularyBuilderApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* LightReactNativeTests.m in Sources */,
+				00E356F31AD99517003FC87E /* VocabularyBuilderAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* LightReactNative */;
+			target = 13B07F861A680F5B00A75B9A /* VocabularyBuilderApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8C889D1A6130DF1AC02A178 /* Pods-LightReactNative-LightReactNativeTests.debug.xcconfig */;
+			baseConfigurationReference = D8C889D1A6130DF1AC02A178 /* Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LightReactNativeTests/Info.plist;
+				INFOPLIST_FILE = VocabularyBuilderAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightReactNative.app/LightReactNative";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabularyBuilderApp.app/VocabularyBuilderApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB92F8ADE8FD477E8315231E /* Pods-LightReactNative-LightReactNativeTests.release.xcconfig */;
+			baseConfigurationReference = CB92F8ADE8FD477E8315231E /* Pods-VocabularyBuilderApp-VocabularyBuilderAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = LightReactNativeTests/Info.plist;
+				INFOPLIST_FILE = VocabularyBuilderAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightReactNative.app/LightReactNative";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabularyBuilderApp.app/VocabularyBuilderApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 832BEEFB6975132179876545 /* Pods-LightReactNative.debug.xcconfig */;
+			baseConfigurationReference = 832BEEFB6975132179876545 /* Pods-VocabularyBuilderApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = LightReactNative/Info.plist;
+				INFOPLIST_FILE = VocabularyBuilderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LightReactNative;
+				PRODUCT_NAME = VocabularyBuilderApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A420F50E7F143CD51EDE2F1 /* Pods-LightReactNative.release.xcconfig */;
+			baseConfigurationReference = 7A420F50E7F143CD51EDE2F1 /* Pods-VocabularyBuilderApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = LightReactNative/Info.plist;
+				INFOPLIST_FILE = VocabularyBuilderApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LightReactNative;
+				PRODUCT_NAME = VocabularyBuilderApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LightReactNativeTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VocabularyBuilderAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LightReactNative" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VocabularyBuilderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LightReactNative" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VocabularyBuilderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

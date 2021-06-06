@@ -1,5 +1,5 @@
 {
-  "name": "lightreactnative",
+  "name": "VocabularyBuilderApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file='./index.ios.js' --bundle-output='./ios/LightReactNative/main.jsbundle' --assets-dest='./ios/LightReactNative' --dev=false --platform='ios'",
+    "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file='./index.ios.js' --bundle-output='./ios/VocabularyBuilderApp/main.jsbundle' --assets-dest='./ios/VocabularyBuilderApp' --dev=false --platform='ios'",
     "bundle-android": "node node_modules/react-native/local-cli/cli.js bundle --entry-file='./index.android.js' --bundle-output='./android/app/src/main/assets/main.jsbundle' --assets-dest='./android/app/src/main/res/' --dev=false --platform='android'",
     "clean": "react-native-clean-project"
   },
@@ -22,6 +22,7 @@
     "@reduxjs/toolkit": "^1.5.1",
     "@ui-kitten/components": "^5.1.0",
     "@ui-kitten/eva-icons": "^5.1.0",
+    "lodash": "^4.17.21",
     "react": "17.0.1",
     "react-native": "0.64.0",
     "react-native-bootsplash": "^3.2.3",
@@ -42,6 +43,7 @@
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^26.0.23",
+    "@types/lodash": "^4.14.170",
     "@types/react-native": "^0.64.0",
     "@types/react-redux": "^7.1.16",
     "@types/react-test-renderer": "^16.9.2",

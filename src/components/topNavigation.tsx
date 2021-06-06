@@ -1,20 +1,14 @@
 import React, { ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
-import {
-  Icon,
-  MenuItem,
-  OverflowMenu,
-  Text,
-  TopNavigationAction,
-} from '@ui-kitten/components';
+import { Icon, MenuItem, OverflowMenu, Text, TopNavigationAction } from '@ui-kitten/components';
 import { useNavigation } from '@react-navigation/native';
 import { shallowEqual, useDispatch, useSelector } from 'react-redux';
 
 const BackIcon = (props: any) => <Icon {...props} name="arrow-back" />;
 
-const AlertIcon = (props: any) => (
-  <Icon {...props} name="alert-circle-outline" />
-);
+const AlertIcon = (props: any) => <Icon {...props} name="alert-circle-outline" />;
+
+const AddIcon = (props: any) => <Icon {...props} name="plus-square-outline" />;
 
 const LogoutIcon = (props: any) => <Icon {...props} name="log-out" />;
 
@@ -23,9 +17,7 @@ interface CustomTopNavigationProps {
   backButton?: boolean;
 }
 
-export const CustomTopNavigation = ({
-  backButton,
-}: CustomTopNavigationProps) => {
+export const CustomTopNavigation = ({ backButton }: CustomTopNavigationProps) => {
   const navigation = useNavigation();
   const dispatch = useDispatch();
 
@@ -35,8 +27,10 @@ export const CustomTopNavigation = ({
     setMenuVisible(!menuVisible);
   };
 
-  const renderMenuAction = () => (
-    <TopNavigationAction icon={AlertIcon} onPress={toggleMenu} />
+  const renderMenuAction = () => <TopNavigationAction icon={AlertIcon} onPress={toggleMenu} />;
+
+  const renderAddAction = () => (
+    <TopNavigationAction icon={AddIcon} onPress={() => navigation.navigate('AddWord')} />
   );
 
   const renderBackAction = () => (
@@ -45,26 +39,13 @@ export const CustomTopNavigation = ({
 
   return (
     <View style={styles.container}>
-      <View style={styles.backContainer}>
-        {backButton && renderBackAction()}
-      </View>
+      <View style={styles.backContainer}>{backButton && renderBackAction()}</View>
 
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>Title</Text>
+        <Text style={styles.title}>Word Reservoir</Text>
       </View>
 
-      <View style={{ ...styles.avatar, ...styles.avatarContainer }}>
-        <OverflowMenu
-          anchor={renderMenuAction}
-          visible={menuVisible}
-          onBackdropPress={toggleMenu}>
-          <MenuItem
-            accessoryLeft={LogoutIcon}
-            title="Quit"
-            onPress={() => {}}
-          />
-        </OverflowMenu>
-      </View>
+      <View style={{ ...styles.avatar, ...styles.avatarContainer }}>{renderAddAction()}</View>
     </View>
   );
 };
@@ -82,7 +63,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontFamily: 'Montserrat',
+    fontFamily: 'Montserrat-Regular',
     fontWeight: 'bold',
   },
   avatarContainer: {

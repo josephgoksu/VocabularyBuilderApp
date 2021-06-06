@@ -18,12 +18,8 @@ export const GetStartedScreen = (props: GetStartedProps) => {
         <Layout style={styles.layout} level="1">
           <View style={styles.ball} />
           <View style={styles.textContent}>
-            <Text style={styles.text} category="s1">
-              Easy to develop
-            </Text>
-
             <Text style={styles.text} category="h1">
-              Template Version: {pJson.version}
+              Reduce learning time
             </Text>
             <Text
               style={{
@@ -31,7 +27,7 @@ export const GetStartedScreen = (props: GetStartedProps) => {
                 fontSize: 24,
               }}
               category="p1">
-              RN Version: {pJson.dependencies['react-native']}
+              Proven-Quiz Method: Learn 3x faster
             </Text>
           </View>
         </Layout>
@@ -70,7 +66,7 @@ const styles = StyleSheet.create({
   },
   text: {
     margin: 2,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Montserrat-Regular',
   },
   textContent: {
     alignItems: 'flex-start',
@@ -92,7 +88,7 @@ const styles = StyleSheet.create({
   },
   getStartedText: {
     margin: 2,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Montserrat-Regular',
     color: '#ffffff',
     fontSize: 24,
     fontWeight: 'bold',

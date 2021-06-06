@@ -1,4 +1,8 @@
-import { AUTH_CHANGE, LOGOUT_USER } from '../reducers';
+import { iActionTypes } from '../iAction';
+
+interface UserSession {
+  idToken: {};
+}
 
 interface Auth {
   loggedIn: boolean;
@@ -13,15 +17,18 @@ interface User {
   email: string;
 }
 
-interface UserSession {
-  idToken: {};
-}
+export const hasLaunched = () => ({
+  type: iActionTypes.HAS_LAUNCHED,
+  payload: {
+    hasLaunched: true,
+  },
+});
 
 export const changeAuth = (payload: Auth) => ({
-  type: AUTH_CHANGE,
+  type: iActionTypes.AUTH_CHANGE,
   payload,
 });
 
 export const logoutUser = () => ({
-  type: LOGOUT_USER,
+  type: iActionTypes.LOGOUT_USER,
 });

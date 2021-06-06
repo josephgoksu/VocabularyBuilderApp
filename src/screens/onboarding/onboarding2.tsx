@@ -19,7 +19,7 @@ export const Onboarding2Screen = (props: Onboarding2Props) => {
             <View style={styles.ball} />
             <View style={styles.textContent}>
               <Text style={styles.text} category="h1">
-                UI-ready
+                Pick Category
               </Text>
               <Text
                 style={{
@@ -27,7 +27,7 @@ export const Onboarding2Screen = (props: Onboarding2Props) => {
                   fontSize: 24,
                 }}
                 category="p1">
-                Dark-Light mode support
+                Start quiz and learn
               </Text>
             </View>
           </Layout>
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   },
   text: {
     margin: 2,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Montserrat-Regular',
   },
   textContent: {
     alignItems: 'flex-start',

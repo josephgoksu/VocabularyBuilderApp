@@ -1,0 +1,19 @@
+export enum iActionTypes {
+  'persist/REHYDRATE' = 'persist/REHYDRATE',
+  'persist/PERSIST' = 'persist/PERSIST',
+  HAS_LAUNCHED = 'HAS_LAUNCHED',
+  AUTH_CHANGE = 'AUTH_CHANGE',
+  LOGOUT_USER = 'LOGOUT_USER',
+  LEARNED_CHANGE = 'LEARNED_CHANGE',
+  ONBOARD_CHANGE = 'ONBOARD_CHANGE',
+  VOCABULARY_CHANGE = 'VOCABULARY_CHANGE',
+  ADD_VOCAB = 'ADD_VOCAB',
+  REMOVE_VOCAB = 'REMOVE_VOCAB',
+  CORRECT_ANSWER = 'CORRECT_ANSWER',
+  WRONG_ANSWER = 'WRONG_ANSWER',
+}
+
+export interface iAction {
+  type: iActionTypes;
+  payload: any;
+}

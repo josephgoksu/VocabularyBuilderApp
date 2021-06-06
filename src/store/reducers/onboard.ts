@@ -1,4 +1,4 @@
-export const ONBOARD_CHANGE = 'ONBOARD_CHANGE';
+import { iAction, iActionTypes } from '../iAction';
 
 export interface iSuperOnboard {
   onboard: iOnboard;
@@ -12,9 +12,9 @@ const initialState: iOnboard = {
   hasOnboarded: false,
 };
 
-export const onboardReducer = (state = initialState, action: any) => {
+export const onboardReducer = (state = initialState, action: iAction) => {
   switch (action.type) {
-    case ONBOARD_CHANGE:
+    case iActionTypes.ONBOARD_CHANGE:
       return {
         ...state,
         hasOnboarded: true,
